@@ -79,8 +79,13 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'base',
+<<<<<<< Updated upstream
         'USER': 'root',
         'PASSWORD':'root',
+=======
+        'USER': 'modeste',
+        'PASSWORD':'modeste',
+>>>>>>> Stashed changes
         'HOST':'127.0.0.1',
         'PORT':3306
     }
@@ -121,7 +126,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
+
 STATIC_URL = 'static/'
+
+
 
 # STATICFILES_DIRS = [
 #     'DIRS': [BASE_DIR, "static"],

@@ -17,8 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from timemanage.views import  login
+<<<<<<< Updated upstream
 from timemanage.views import consulter_emploi_du_temps,creer_compte,se_deconnecter,connexion,accueil,inscription,inscription_confirmation,seconnecter
 from django.contrib.auth import views as auth_views
+=======
+
+
+>>>>>>> Stashed changes
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accueil', accueil, name='accueil'),
